@@ -3,19 +3,19 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --font-jersey: 'Jersey 10', serif;
+  --font-sixtyfour: 'SixtyFour', serif;
+  --font-inconsolata: 'Inconsolata', monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.font-jersey {
+  font-family: var(--font-jersey);
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.font-sixtyfour {
+  font-family: var(--font-sixtyfour);
+}
+
+.font-inconsolata {
+  font-family: var(--font-inconsolata);
 }
