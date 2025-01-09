@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
+:root {
+  --font-jersey: 'Jersey 10', serif;
+  --font-sixtyfour: 'SixtyFour', serif;
+  --font-inconsolata: 'Inconsolata', monospace;
+}
+
+.font-jersey {
+  font-family: var(--font-jersey);
+}
+
+.font-sixtyfour {
+  font-family: var(--font-sixtyfour);
+}
+
+.font-inconsolata {
+  font-family: var(--font-inconsolata);
 }
